@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./Images/favicon-32x32.png"> Weather App</a>
+      <a class="navbar-brand" href="#"><img src="./Images/favicon-32x32.png"> My Weather App</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm border-primary">
             <div class="card-header py-3  text-bg-primary border-primary">
-              <h4 class="my-0 fw-normal">Tempratures</h4>
+              <h4 class="my-0 fw-normal">Temprature</h4>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">
@@ -117,7 +117,13 @@
 
       <h2 class=" text-center mb-4">
         Weather of other Common Places
-        <span class="end"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+        <div class="dropdown">
+            <button type="button" class="btn btn-light"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          <div class="dropdown-content">
+            <a href="#">Edit</a>
+            <a href="#">Delete</a>
+          </div>
+        </div> 
       </h2>
 
       <div class="table-responsive">
