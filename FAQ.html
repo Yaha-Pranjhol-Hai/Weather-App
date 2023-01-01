@@ -1,111 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Weather APP</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./Images/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/162f4af1cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Weather APP</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="./Images/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon-16x16.png" />
-  <link rel="manifest" href="./Images/site.webmanifest" />
-  <script src="https://kit.fontawesome.com/162f4af1cb.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./Images/favicon-32x32.png" /> My Weather App</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Delhi</a></li>
+                <li><a class="dropdown-item" href="#">Seattle</a></li>
+                <li><a class="dropdown-item" href="#">Bangalore</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active">FAQs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./Images/favicon-32x32.png"> My Weather App</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Delhi</a></li>
-              <li><a class="dropdown-item" href="#">Seattle</a></li>
-              <li><a class="dropdown-item" href="#">Bangalore</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active">FAQs</a>
-          </li>
-        </ul>
+    <h1 class="my-4 text-center">Frequently Asked Questions</h1>
+    <div class="container_1">
+      <div class="svg"> <img src="./Images/Weather-girl.png" alt="My Weather Girl" /> </div>
+      <div class="list-unstyled mt-3 mb-4 ">
+        <div>
+          <main class="px-5">
+            <h3>Is this Weather App really free?</h3>
+            <p class="lead text-muted">
+              Yes. Every aspect of this Weather App is 100% free.
+            </p>
+            <h3>How did Weather App get started?</h3>
+            <p class="lead text-muted">
+              It was started in the end of the year in 2022 around Christmas.
+              <br />
+              To help the Santa Claus to know the Weather and find the places to
+              spread happiness and share gifts.
+            </p>
+            <h3>Does Weather App have a mobile app?</h3>
+            <p class="lead text-muted">
+              Not now but it is in our Plans. Hopefully you will get to know
+              about it next year.
+            </p>
+            <h3>How to become our Supporter?</h3>
+            <p class="lead text-muted">
+              Just Follow us on Github and other Social Media Handles.
+              <br />
+              Share and encourage our work in order to make the community grow.
+            </p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-light fw-bold text-bg-primary">Learn more</a>
+            </p>
+          </main>
+        </div>
       </div>
     </div>
-  </nav>
 
-  <div class="container">
-    <h1 class="my-4 text-center">Fecently Asked Questions</h1>
-    <div class="list-unstyled mt-3 mb-4 text-center"></div>
-    <div>
-      <main class="px-3">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">About</a>
+        </li>
+      </ul>
+      <div class="text-center">
         <h3>
-          Is this Weather App really free?
+          <a
+            href="https://twitter.com/yaha_pranjhol_h?t=-Lji8EkCuYhrsp0yMMDQ_w&s=09"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://github.com/Yahan-Pranjhol-hai"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/pranjal-jain-68848a225/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
         </h3>
-        <p class="lead text-muted">
-          Yes. Every aspect of this Weather App is 100% free.
-        </p>
-        <h3>
-          How did Weather App get started?
-        </h3>
-        <p class="lead text-muted">
-          It was started in the end of the year in 2022 around Christmas.
-          <br />
-          To help the Santa Claus to know the Weather and find the places to spread happiness and share gifts.
-        </p>
-        <h3>Does Weather App have a mobile app?</h3>
-        <p class="lead text-muted">
-          Not now but it is in our Plans. Hopefully you will get to know about it next year.
-        </p>
-        <h3>How to become our Supporter?</h3>
-        <p class="lead text-muted">
-          Just Follow us on Github and other Social Media Handles. Share and encourage our work in order to make the
-          community grow.
-        </p>
+      </div>
+      <p class="text-center text-muted">© 2023 Pranjal Jain, Inc</p>
+    </footer>
 
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-light fw-bold text-bg-primary">Learn more</a>
-        </p>
-      </main>
-    </div>
-  </div>
-
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-    </ul>
-    <div class="text-center">
-      <h3>
-        <a href="https://twitter.com/yaha_pranjhol_h?t=-Lji8EkCuYhrsp0yMMDQ_w&s=09"><i
-            class="fa-brands fa-twitter"></i></a>
-        <a href="https://github.com/Yahan-Pranjhol-hai"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/pranjal-jain-68848a225/"><i class="fa-brands fa-linkedin-in"></i></a>
-      </h3>
-    </div>
-    <p class="text-center text-muted">© 2023 Pranjal Jain, Inc</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
