@@ -5,7 +5,7 @@ This Weather App provides users with information about the current weather condi
 This Weather App is made using HTML ,CSS , Javascript and used RapidAPI for fetching information of different regions.
 
 ## Preview
-![Preview](![image](https://user-images.githubusercontent.com/105844448/214547418-a5fa4f1b-1ad2-4f5a-b43a-721f85e88254.png))
+![image](https://user-images.githubusercontent.com/105844448/214548523-580c11a7-8ef8-4bb3-b2ab-f93d9347908a.png)
 
 ## Future Plans
 The app may also offer features such as push notifications for severe weather alerts, a radar map to visualize current and forecasted weather patterns, and the ability to view historical weather data. Some weather apps may also offer additional features such as air quality index data, pollen count, and sunrise and sunset times. The app may be available for free, with the latter option often providing access to additional features and more detailed weather data. Overall, a weather app can be a useful tool for individuals who want to stay informed about the current and forecasted weather conditions for their location. It can help users plan their activities and make decisions about what to wear and how to prepare for the weather.
