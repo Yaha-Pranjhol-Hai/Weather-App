@@ -28,7 +28,7 @@ submit.addEventListener("click", (e) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  getWeather("Mumbai");
+  getWeather("Bhilwara");
 });
 
 function format_time(s) {
