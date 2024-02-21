@@ -9,25 +9,3 @@ This Weather App is made using HTML ,CSS , Javascript and used RapidAPI for fetc
 
 ## Future Plans
 The app may also offer features such as push notifications for severe weather alerts, a radar map to visualize current and forecasted weather patterns, and the ability to view historical weather data. This weather apps may also offer additional features such as air quality index data, pollen count, and sunrise and sunset times. Overall, this weather app can be a useful tool for individuals who want to stay informed about the current and forecasted weather conditions for their location. It can help users plan their activities and make decisions about what to wear and how to prepare for the weather.
-
-
- <h2>Weather Data for January 2022</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Temperature (&#8451;)</th>
-            <th>Humidity (%)</th>
-            <th>Wind Speed (km/h)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2022-01-01</td>
-            <td>20</td>
-            <td>65</td>
-            <td>15</td>
-          </tr>
-          <!-- Add more rows for other dates -->
-        </tbody>
-      </table>
