@@ -29,8 +29,8 @@ const getWeather = (city)=>{
     .catch((err) => console.error(err));
 }
 
-const getWeatherOfShanghai=()=> {
-	fetch("https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Shanghai",options)
+const getWeatherOfMumbai=()=> {
+	fetch("https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Mumbai",options)
     .then((response) => response.json())
     .then((response) => {
 
@@ -49,8 +49,8 @@ const getWeatherOfShanghai=()=> {
     .catch((err) => console.error(err));
 }
 
-const getWeatherOfBoston=()=> {
-	fetch("https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Boston",options)
+const getWeatherOfChennai=()=> {
+	fetch("https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Chennai",options)
     .then((response) => response.json())
     .then((response) => {
 
@@ -118,8 +118,8 @@ submit.addEventListener("click", (e)=>{
 
 getWeatherOfKolkata()
 getWeatherOfLucknow()
-getWeatherOfBoston()
-getWeatherOfShanghai()
+getWeatherOfChennai()
+getWeatherOfMumbai()
 getWeather("Delhi")
 
 var date = new Date(response.sunrise * 1000);
